@@ -20,8 +20,8 @@
 		"body": [
 			"\\begin{figure}",
 			"\t\\centering",
-			"\t\\includegraphics[width=${1:1.}\\textwidth]{}",
-			"\t\\caption{${2:My caption}}",
+			"\t\\includegraphics[width=${1:1.}\\textwidth]{$2}",
+			"\t\\caption{${3:My caption}}",
 			"\t\\label{fig:${3:My figure}}",
 			"\\end{figure}"
 		],
