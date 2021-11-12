@@ -22,7 +22,7 @@
 			"\t\\centering",
 			"\t\\includegraphics[width=${1:1.}\\textwidth]{$2}",
 			"\t\\caption{${3:My caption}}",
-			"\t\\label{fig:${3:My figure}}",
+			"\t\\label{fig:${4:My figure}}",
 			"\\end{figure}"
 		],
 		"description": "Generates env. for single figure"
